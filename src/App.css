@@ -1,0 +1,12 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background: radial-gradient(123.22% 0% at 100.89% -5.6%, #201d47 0%, #17153a 100%);
+  color: rgba(173, 181, 193, 1);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
