@@ -10,3 +10,59 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smail-title {
+  color: #53D0EC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.big-title {
+  font-size: 38px;
+  line-height: 46px;
+  margin-bottom: 18px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  width: 75%;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ADB5C1;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .smail-title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .big-title {
+    margin-bottom: 18px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .description {
+    width: 90%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

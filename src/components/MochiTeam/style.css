@@ -1,0 +1,89 @@
+.mochi-team {
+  flex-direction: column;
+  margin-top: 150px !important;
+}
+
+.mochi-team > div {
+  width: 100%;
+}
+
+.title-member {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.image-area {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.member-card {
+  align-items: center;
+}
+
+.member-card > .footer-card {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 56px;
+}
+
+.footer-card > div > img {
+  width: 40px;
+  height: 40px;
+}
+
+.member-card > img {
+  width: 264px;
+  height: 350px;
+  border-radius: 12px;
+}
+
+.member-card > .name {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.member-card > .role {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ADB5C1;
+}
+
+@media (max-width: 768px) {
+  .member-card > .footer-card {
+    margin-bottom: 32px;
+  }
+
+  .member-card > img{
+    height: 200px;
+    width: 152px;
+  }
+
+  .member-card > .name {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .member-card > .role {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
