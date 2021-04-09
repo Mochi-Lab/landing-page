@@ -1,0 +1,31 @@
+.mochi-token {
+  margin-top: 10rem;
+}
+.mochi-token .content-mochi-team {
+  margin-top: 5rem;
+}
+.mochi-token .content-mochi-team .description-mochi-team .title-mochi-team h1 {
+  color: white;
+  font-weight: bold;
+}
+.mochi-token .content-mochi-team .description-mochi-team .title-mochi-team {
+  margin-bottom: 1.5rem;
+}
+.mochi-token .content-mochi-team .img-mochi-team img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .mochi-token {
+    margin-top: 3rem;
+  }
+
+  .mochi-token .content-mochi-team {
+    margin-top: 3rem;
+  }
+
+  .mochi-token .content-mochi-team .description-mochi-team {
+    text-align: center;
+  }
+}

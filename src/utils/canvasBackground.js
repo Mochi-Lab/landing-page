@@ -21,14 +21,14 @@ export default function canvasBackground(document) {
       radius: Math.random() * 1 + 1,
       vx: Math.floor(Math.random() * 50) - 25,
       vy: Math.floor(Math.random() * 50) - 25,
-      speed: Math.floor(Math.random() * 51) + 25
+      speed: Math.floor(Math.random() * 51) + 25,
     });
   }
 
   function drawStars() {
-    stars.map(star => {
+    stars.map((star) => {
       ctx.beginPath();
-      ctx.fillStyle = '#fff';
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.25)';
       ctx.arc(star.x, star.y, star.radius, 0, 2 * Math.PI);
       ctx.fill();
       // ctx.fillStyle = 'red';
@@ -37,18 +37,18 @@ export default function canvasBackground(document) {
   }
 
   function drawLines() {
-    stars.map(starI => {
+    stars.map((starI) => {
       ctx.moveTo(starI.x, starI.y);
       // distance can connect from mouse to dots
       // if (distance(mouse, starI) < 250) ctx.lineTo(mouse.x, mouse.y);
 
-      stars.map(starII => {
+      stars.map((starII) => {
         // distance can connect between the dots
         if (distance(starI, starII) < 60) ctx.lineTo(starII.x, starII.y);
       });
     });
     ctx.lineWidth = 0.1;
-    ctx.strokeStyle = 'white';
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)';
     ctx.stroke();
   }
 
@@ -69,7 +69,7 @@ export default function canvasBackground(document) {
 
   // Update star locations
   function update() {
-    stars.map(star => {
+    stars.map((star) => {
       // star.x += star.vx / FPS;
       // star.y += star.vy / FPS;
       star.x += star.vx / star.speed;

@@ -43,3 +43,9 @@
 .item-community .btn-redirect a span {
   vertical-align: 0;
 }
+
+@media (max-width: 768px) {
+  .community .title-community h1 {
+    font-size: 1.6rem;
+  }
+}
