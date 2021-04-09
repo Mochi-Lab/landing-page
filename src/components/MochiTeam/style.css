@@ -1,5 +1,6 @@
 .mochi-team {
   flex-direction: column;
+  margin-top: 150px !important;
 }
 
 .mochi-team > div {
@@ -63,7 +64,7 @@
   color: #ADB5C1;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
   .member-card > .footer-card {
     margin-bottom: 32px;
   }
