@@ -1,0 +1,31 @@
+.main-meal {
+  margin-top: 8rem;
+}
+.list-item {
+  margin-top: 3rem;
+}
+
+.list-item .item {
+  border: 1px solid rgb(125 120 144 / 45%);
+  padding: 2rem;
+  border-radius: 1rem;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+.list-item .item .icon-item img {
+  width: 32px;
+  height: 32px;
+}
+.list-item .item .title-item {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .list-item {
+    text-align: center;
+  }
+}

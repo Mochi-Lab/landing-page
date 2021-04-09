@@ -1,0 +1,32 @@
+.the-problems {
+  margin-top: 10rem;
+}
+
+.the-problems .title-problems h1 {
+  font-weight: bold;
+  color: white;
+}
+
+.the-problems .list-problems .item-problem .title-item {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+.the-problems .list-problems .item-problem {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .the-problems {
+    margin-top: 5rem;
+  }
+  .list-problems {
+    text-align: center;
+  }
+
+  .the-problems .title-problems {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}

@@ -17,7 +17,7 @@ export default function Community() {
         </div>
         <div className='box-community'>
           <div className='row'>
-            <div className='col-6 col-md-3'>
+            <div className='col-6 col-md-3 mb-5'>
               <div className='item-community'>
                 <div className='icon'>
                   <img src={iconTele} alt='telegarm' />
@@ -33,7 +33,7 @@ export default function Community() {
                 </div>
               </div>
             </div>
-            <div className='col-6 col-md-3'>
+            <div className='col-6 col-md-3 mb-5'>
               <div className='item-community'>
                 <div className='icon'>
                   <img src={iconTwitter} alt='Twitter' />
@@ -47,7 +47,7 @@ export default function Community() {
                 </div>
               </div>
             </div>
-            <div className='col-6 col-md-3'>
+            <div className='col-6 col-md-3 mb-5'>
               <div className='item-community'>
                 <div className='icon'>
                   <img src={iconMedium} alt='Medium' />
@@ -61,7 +61,7 @@ export default function Community() {
                 </div>
               </div>
             </div>
-            <div className='col-6 col-md-3'>
+            <div className='col-6 col-md-3 mb-5'>
               <div className='item-community'>
                 <div className='icon'>
                   <img src={iconDiscord} alt='Discord' />
