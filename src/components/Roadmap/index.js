@@ -5,31 +5,45 @@ export default function Roadmap() {
   const contents = [
     {
       stage: 'STAGE 01',
-      header: 'Development Started',
+      header: 'Project Commencement',
       content:
         'Cras fames semper semper nibh vestibulum. Interdum augue massa feugiat gravida a pellentesque ut fermentum vitae. Dictum cursus amet.',
-      date: 'April 10, 2020',
+      date: 'Q1, 2021',
     },
     {
       stage: 'STAGE 02 (Current Stage)',
-      header: 'Pre-ICO Opens',
+      header: 'Launching Mochi Marketplace & Mochi Earn',
       content:
         'Cras fames semper semper nibh vestibulum. Interdum augue massa feugiat gravida a pellentesque ut fermentum vitae. Dictum cursus amet.',
-      date: 'October 27, 2020',
+      date: 'Q2, 2021',
     },
     {
       stage: 'STAGE 03',
-      header: 'Private Token Round',
+      header: 'Launching Mochi Dex',
       content:
         'Cras fames semper semper nibh vestibulum. Interdum augue massa feugiat gravida a pellentesque ut fermentum vitae. Dictum cursus amet.',
-      date: 'December 12, 2020',
+      date: 'Q3, 2021',
     },
     {
       stage: 'STAGE 04',
-      header: 'App Integration Progress',
+      header: 'Launching NFT Launpad & Mochi Integration',
       content:
         'Cras fames semper semper nibh vestibulum. Interdum augue massa feugiat gravida a pellentesque ut fermentum vitae. Dictum cursus amet.',
-      date: 'June 27, 2021',
+      date: 'Q4, 2021',
+    },
+    {
+      stage: 'STAGE 04',
+      header: 'Growing Mochi Ecosystem',
+      content:
+        'Cras fames semper semper nibh vestibulum. Interdum augue massa feugiat gravida a pellentesque ut fermentum vitae. Dictum cursus amet.',
+      date: '2022',
+    },
+    {
+      stage: 'STAGE 04',
+      header: 'Community Driven Ecosystem',
+      content:
+        'Cras fames semper semper nibh vestibulum. Interdum augue massa feugiat gravida a pellentesque ut fermentum vitae. Dictum cursus amet.',
+      date: '2023',
     },
   ];
 

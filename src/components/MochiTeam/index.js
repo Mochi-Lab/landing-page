@@ -7,29 +7,44 @@ import hoang from 'assets/member/hoang.png';
 import kien from 'assets/member/kien.png';
 import nghia from 'assets/member/nghia.png';
 import tan from 'assets/member/tan.png';
+import andrew from 'assets/member/andrew.png';
+import daniel from 'assets/member/Daniel.png';
+
+import anirban from 'assets/advisors/anirban.png';
+import lester from 'assets/advisors/lester.png';
+import matth from 'assets/advisors/matth.png';
+import oliver from 'assets/advisors/oliver.png';
 
 export default function MochiTeam() {
   const advisors = [
     {
-      image: chien,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
+      image: matth,
+      name: 'Matthijs van Driel',
+      role: 'ADVISOR',
       linkedin: 'https://vn.linkedin.com/',
       twitter: 'https://vn.linkedin.com/',
       instagram: 'https://vn.linkedin.com/',
     },
     {
-      image: cong,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
+      image: oliver,
+      name: 'Oliver Nguyen',
+      role: 'ADVISOR',
       linkedin: 'https://vn.linkedin.com/',
       twitter: 'https://vn.linkedin.com/',
       instagram: 'https://vn.linkedin.com/',
     },
     {
-      image: ha,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
+      image: anirban,
+      name: 'Anirban Saha',
+      role: 'PRODUCT ADVISOR',
+      linkedin: 'https://vn.linkedin.com/',
+      twitter: 'https://vn.linkedin.com/',
+      instagram: 'https://vn.linkedin.com/',
+    },
+    {
+      image: lester,
+      name: 'Lester Lim',
+      role: 'ADVISOR',
       linkedin: 'https://vn.linkedin.com/',
       twitter: 'https://vn.linkedin.com/',
       instagram: 'https://vn.linkedin.com/',
@@ -38,57 +53,73 @@ export default function MochiTeam() {
 
   const members = [
     {
-      image: kien,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
+      image: ha,
+      name: 'Sophia Ho',
+      role: 'CO-FOUNDER & CEO',
       linkedin: 'https://vn.linkedin.com/',
       twitter: 'https://vn.linkedin.com/',
       instagram: 'https://vn.linkedin.com/',
     },
     {
-      image: ha,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
+      image: kien,
+      name: 'Kevin Do',
+      role: 'CO-FOUNDER & CTO',
       linkedin: 'https://vn.linkedin.com/',
       twitter: 'https://vn.linkedin.com/',
       instagram: 'https://vn.linkedin.com/',
     },
     {
       image: chien,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
+      name: 'Charles Tran',
+      role: 'CO-FOUNDER & CPO',
       linkedin: 'https://vn.linkedin.com/',
       twitter: 'https://vn.linkedin.com/',
       instagram: 'https://vn.linkedin.com/',
     },
     {
       image: hoang,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
+      name: 'Taio Newgate',
+      role: 'CO-FOUNDER & DEV',
       linkedin: 'https://vn.linkedin.com/',
       twitter: 'https://vn.linkedin.com/',
       instagram: 'https://vn.linkedin.com/',
     },
     {
       image: nghia,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
+      name: 'Nolan Ngo',
+      role: 'CO-FOUNDER & DEV',
       linkedin: 'https://vn.linkedin.com/',
       twitter: 'https://vn.linkedin.com/',
       instagram: 'https://vn.linkedin.com/',
     },
     {
       image: tan,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
+      name: 'Elio Tan',
+      role: 'CO-FOUNDER & DEV',
       linkedin: 'https://vn.linkedin.com/',
       twitter: 'https://vn.linkedin.com/',
       instagram: 'https://vn.linkedin.com/',
     },
     {
       image: cong,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
+      name: 'Roberto Le',
+      role: 'CO-FOUNDER & DEV',
+      linkedin: 'https://vn.linkedin.com/',
+      twitter: 'https://vn.linkedin.com/',
+      instagram: 'https://vn.linkedin.com/',
+    },
+    {
+      image: andrew,
+      name: 'Andrew Fennell',
+      role: 'COMMUNITY MANAGER \n & BDM',
+      linkedin: 'https://vn.linkedin.com/',
+      twitter: 'https://vn.linkedin.com/',
+      instagram: 'https://vn.linkedin.com/',
+    },
+    {
+      image: daniel,
+      name: 'Daniel Timothy',
+      role: 'BUSINESS MANAGER',
       linkedin: 'https://vn.linkedin.com/',
       twitter: 'https://vn.linkedin.com/',
       instagram: 'https://vn.linkedin.com/',

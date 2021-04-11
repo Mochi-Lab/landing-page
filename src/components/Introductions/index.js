@@ -16,7 +16,7 @@ export default function Introductions() {
                 practical and innovative technological solutions to enable a seamless web3 NFT
                 economy.
               </div>
-              <button className='btn-launch-app'>Launch App</button>
+              <button className='btn-launch-app'>Comming Soon</button>
             </div>
           </div>
           <div className='col-sm-12 col-md-6'>

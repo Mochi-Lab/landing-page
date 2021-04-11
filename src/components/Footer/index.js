@@ -22,17 +22,25 @@ export default function Footer() {
       <div className='center flc'>
         <p className='footer-community'>Our Community</p>
         <div className='footer-community-icon'>
-          <div>
-            <img src={tele} alt='tele' />
+          <div className='icon-item'>
+            <a href='https://t.me/mochi_market' target='_blank' rel='noreferrer'>
+              <img src={tele} alt='tele' />
+            </a>
           </div>
-          <div>
-            <img src={twitter} alt='twitter' />
+          <div className='icon-item'>
+            <a href='https://twitter.com/MarketMochi' target='_blank' rel='noreferrer'>
+              <img src={twitter} alt='twitter' />
+            </a>
           </div>
-          <div>
-            <img src={medium} alt='medium' />
+          <div className='icon-item'>
+            <a href='https://mochi-market.medium.com/' target='_blank' rel='noreferrer'>
+              <img src={medium} alt='medium' />
+            </a>
           </div>
-          <div>
-            <img src={discord} alt='discord' />
+          <div className='icon-item'>
+            <a href='https://discord.gg/ZHq7arVS' target='_blank' rel='noreferrer'>
+              <img src={discord} alt='discord' />
+            </a>
           </div>
         </div>
       </div>

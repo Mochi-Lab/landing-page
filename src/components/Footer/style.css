@@ -1,6 +1,11 @@
 .footer {
   height: 578px;
-  background: linear-gradient(180deg, rgba(38, 34, 80, 0.65) 0%, rgba(27, 25, 66, 0.85) 57.44%, #17163B 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(38, 34, 80, 0.65) 0%,
+    rgba(27, 25, 66, 0.85) 57.44%,
+    #17163b 100%
+  );
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -33,7 +38,7 @@
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 32px;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 .footer-community-icon {
@@ -42,7 +47,11 @@
   justify-content: space-around;
 }
 
-.footer-community-icon > div > img {
+.footer-community-icon .icon-item img {
+  cursor: pointer;
+}
+
+.footer-community-icon > .icon-item img {
   width: 48px;
   height: 48px;
 }
@@ -56,7 +65,7 @@
 
 .copyright {
   z-index: 1;
-  background-color: #12112C;
+  background-color: #12112c;
   height: 76px;
 }
 

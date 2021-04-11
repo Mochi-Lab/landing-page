@@ -25,8 +25,8 @@ export default function MainMeal() {
                 </div>
                 <div className='title-item'>Mochi Marketplace</div>
                 <div className='description-item'>
-                  Where users can use automated market making (“AMM”) mechanisms to exchange between
-                  FTs and NFTs on the same or cross-chains.
+                  Where people can buy, sell, exchange peer-to-peer, lending, and borrow
+                  peer-to-peer through an exchange like a traditional exchange.
                 </div>
               </div>
             </div>
@@ -37,9 +37,8 @@ export default function MainMeal() {
                 </div>
                 <div className='title-item'>Mochi DEX</div>
                 <div className='description-item'>
-                  To increase user interaction in the Mochi Market ecosystem, there will be a lot of
-                  reward systems for users such as trading reward, referral, airdrop, lottery, NFT
-                  launchpad.
+                  Where users can use automated market making (“AMM”) mechanisms to exchange between
+                  FTs and NFTs on the same or cross-chains.
                 </div>
               </div>
             </div>

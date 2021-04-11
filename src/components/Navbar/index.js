@@ -3,9 +3,8 @@ import { CloseOutlined, UnorderedListOutlined } from '@ant-design/icons';
 import './style.css';
 import { useState } from 'react';
 
-export default function Navbar() {
+export default function Navbar({ executeScroll }) {
   const [btnMenu, setBtnMenu] = useState(false);
-
   return (
     <div className='navbar-ct'>
       <div className='header container'>
@@ -17,14 +16,12 @@ export default function Navbar() {
         </div>
         <div className={`menu-right ${btnMenu ? 'active' : ''}`}>
           <ul>
-            <li>Home</li>
-            <li>Developer Hub</li>
-            <li>Document</li>
-            <li>Document</li>
-            <li>About</li>
-            <li>
-              <button className='btn-launch-app'>Launch App</button>
-            </li>
+            <li onClick={() => executeScroll('Solutions')}>Solutions</li>
+            <li onClick={() => executeScroll('Features')}>Features</li>
+            <li onClick={() => executeScroll('Token')}>Token</li>
+            <li onClick={() => executeScroll('Roadmap')}>Roadmap</li>
+            <li onClick={() => executeScroll('Team')}>Team</li>
+            <li>{/* <button className='btn-launch-app'>Launch App</button> */}</li>
           </ul>
         </div>
       </div>
