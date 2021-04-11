@@ -9,10 +9,10 @@ export default function WeBringTo() {
       <div className='container'>
         <div className='title-section'>
           <h1>What we bring to the table</h1>
-          <div className='description-section'>
+          {/* <div className='description-section'>
             Mochi.Market is the first product of Mochilab.org - a team dedicated to developing
             practical and innovative technological solutions to enable a seamless web3 NFT economy.
-          </div>
+          </div> */}
         </div>
         <div className='list-bring'>
           <div className='description-list'>
@@ -28,9 +28,7 @@ export default function WeBringTo() {
                   <div className='title-item'>
                     <b>01.</b> Fractionalization
                   </div>
-                  <div className='description-item'>
-                    Eu, mauris eu fusce tincidunt dignissim faucibus.
-                  </div>
+                  <div className='description-item'></div>
                 </div>
               </div>
               <div className='col-12 col-md-4'>
@@ -41,9 +39,7 @@ export default function WeBringTo() {
                   <div className='title-item'>
                     <b>02.</b> Low transaction fee
                   </div>
-                  <div className='description-item'>
-                    Diam, gravida dignissim lectus penatibus nam dui iaculis.
-                  </div>
+                  <div className='description-item'></div>
                 </div>
               </div>
               <div className='col-12 col-md-4'>
@@ -54,9 +50,7 @@ export default function WeBringTo() {
                   <div className='title-item'>
                     <b>03.</b> DEX
                   </div>
-                  <div className='description-item'>
-                    Hendrerit est cras consequat ornare sed ac a, massa est.
-                  </div>
+                  <div className='description-item'></div>
                 </div>
               </div>
             </div>
@@ -69,7 +63,7 @@ export default function WeBringTo() {
           </div>
           <div className='box-list-item'>
             <div className='row'>
-              <div className='col-12 col-md-4'>
+              <div className='col-12 col-md-6'>
                 <div className='item-we-bring-to'>
                   <div className='icon-item'>
                     <img src={IconDotYellow} alt='Icon Dot Yellow' />
@@ -77,12 +71,10 @@ export default function WeBringTo() {
                   <div className='title-item'>
                     <b>01.</b> Staking
                   </div>
-                  <div className='description-item'>
-                    Eu, mauris eu fusce tincidunt dignissim faucibus.
-                  </div>
+                  <div className='description-item'></div>
                 </div>
               </div>
-              <div className='col-12 col-md-4'>
+              <div className='col-12 col-md-6'>
                 <div className='item-we-bring-to'>
                   <div className='icon-item'>
                     <img src={IconDotYellow} alt='Icon Dot Yellow' />
@@ -90,22 +82,28 @@ export default function WeBringTo() {
                   <div className='title-item'>
                     <b>02.</b> Lending
                   </div>
-                  <div className='description-item'>
-                    Diam, gravida dignissim lectus penatibus nam dui iaculis.
-                  </div>
+                  <div className='description-item'></div>
                 </div>
               </div>
-              <div className='col-12 col-md-4'>
+            </div>
+          </div>
+        </div>
+        <div className='list-bring'>
+          <div className='description-list'>
+            An economy where NFT and Fungible tokens (“FT”) are seamlessly intersecting across
+            multiple blockchains - Interoperability.
+          </div>
+          <div className='box-list-item'>
+            <div className='row'>
+              <div className='col-12'>
                 <div className='item-we-bring-to'>
                   <div className='icon-item'>
                     <img src={IconDotYellow} alt='Icon Dot Yellow' />
                   </div>
                   <div className='title-item'>
-                    <b>03.</b> Interoperability
+                    <b>01.</b> Interoperability
                   </div>
-                  <div className='description-item'>
-                    Hendrerit est cras consequat ornare sed ac a, massa est.
-                  </div>
+                  <div className='description-item'></div>
                 </div>
               </div>
             </div>

@@ -68,6 +68,12 @@
   font-size: x-large;
 }
 
+.navbar-ct .header .menu-right ul li:last-child {
+  background: none;
+  border-bottom: none;
+  color: white;
+}
+
 @media (max-width: 992px) {
   .navbar-ct .header .menu-right {
     transition: all 0.5s;
@@ -122,11 +128,5 @@
     background: linear-gradient(100.48deg, #e4609e 7.34%, rgba(228, 96, 158, 0) 91.74%);
     color: white;
     border-bottom: none;
-  }
-
-  .navbar-ct .header .menu-right ul li:last-child {
-    background: none;
-    border-bottom: none;
-    color: white;
   }
 }

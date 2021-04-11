@@ -11,7 +11,7 @@ export default function Community() {
       <div className='container'>
         <div className='title-community'>
           <h1>
-            Want to be part of Mochi.Market? <br />
+            Want to be a part of Mochi.Market? <br />
             Join the discussion!
           </h1>
         </div>
@@ -20,14 +20,14 @@ export default function Community() {
             <div className='col-6 col-md-3 mb-5'>
               <div className='item-community'>
                 <div className='icon'>
-                  <img src={iconTele} alt='telegarm' />
+                  <img src={iconTele} alt='Telegram' />
                 </div>
-                <div className='name'>Telegarm</div>
+                <div className='name'>Telegram</div>
                 <div className='descriptions'>
-                  Chat with us or get news everyday via Telegram channel
+                  Chat with us or get news everyday via our Telegram channel
                 </div>
                 <div className='btn-redirect'>
-                  <a href='#'>
+                  <a href='https://t.me/mochi_market' target='_blank' rel='noreferrer'>
                     Contact <ArrowRightOutlined />
                   </a>
                 </div>
@@ -39,9 +39,9 @@ export default function Community() {
                   <img src={iconTwitter} alt='Twitter' />
                 </div>
                 <div className='name'>Twitter</div>
-                <div className='descriptions'>For random thoughts and funny things</div>
+                <div className='descriptions'>For all our latest posts on all things Mochi</div>
                 <div className='btn-redirect'>
-                  <a href='#'>
+                  <a href='https://twitter.com/MarketMochi' target='_blank' rel='noreferrer'>
                     Follow Us <ArrowRightOutlined />
                   </a>
                 </div>
@@ -55,7 +55,7 @@ export default function Community() {
                 <div className='name'>Medium</div>
                 <div className='descriptions'>For our Portfolio and Daily activities in office</div>
                 <div className='btn-redirect'>
-                  <a href='#'>
+                  <a href='https://mochi-market.medium.com/' target='_blank' rel='noreferrer'>
                     Follow Us <ArrowRightOutlined />
                   </a>
                 </div>
@@ -67,9 +67,11 @@ export default function Community() {
                   <img src={iconDiscord} alt='Discord' />
                 </div>
                 <div className='name'>Discord</div>
-                <div className='descriptions'>For our Portfolio and Daily activities in office</div>
+                <div className='descriptions'>
+                  Chat with us or get news everyday via our Discord channel
+                </div>
                 <div className='btn-redirect'>
-                  <a href='#'>
+                  <a href='https://discord.gg/ZHq7arVS' target='_blank' rel='noreferrer'>
                     Join Us <ArrowRightOutlined />
                   </a>
                 </div>

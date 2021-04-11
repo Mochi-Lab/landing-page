@@ -9,7 +9,7 @@ export default function RoadmapCard({ data, index }) {
             <div className='roadmap-card-bg roadmap-card-right'>
               <p className='roadmap-card-stage'>{stage + ' ' + date}</p>
               <p className='roadmap-card-header'>{header}</p>
-              <p className='roadmap-card-content'>{content}</p>
+              {/* <p className='roadmap-card-content'>{content}</p> */}
             </div>
           </div>
           <div className='dot-area center'>
@@ -26,10 +26,12 @@ export default function RoadmapCard({ data, index }) {
         <div className='roadmap-card'>
           {index % 2 !== 0 ? (
             <div className='roadmap-row'>
-              <div className='roadmap-card-bg roadmap-card-right'>
-                <p className='roadmap-card-stage'>{stage}</p>
-                <p className='roadmap-card-header'>{header}</p>
-                <p className='roadmap-card-content'>{content}</p>
+              <div className='wrap-roadmap-card-bg-right'>
+                <div className='roadmap-card-bg left-0'>
+                  <p className='roadmap-card-stage'>{stage}</p>
+                  <p className='roadmap-card-header'>{header}</p>
+                  {/* <p className='roadmap-card-content'>{content}</p> */}
+                </div>
               </div>
               <div className='roadmap-card-date roadmap-card-left'>
                 <div className='date-left'>
@@ -39,10 +41,12 @@ export default function RoadmapCard({ data, index }) {
             </div>
           ) : (
             <div className='roadmap-row'>
-              <div className='roadmap-card-bg'>
-                <p className='roadmap-card-stage'>{stage}</p>
-                <p className='roadmap-card-header'>{header}</p>
-                <p className='roadmap-card-content'>{content}</p>
+              <div className='wrap-roadmap-card-bg'>
+                <div className='roadmap-card-bg right-0'>
+                  <p className='roadmap-card-stage'>{stage}</p>
+                  <p className='roadmap-card-header'>{header}</p>
+                  {/* <p className='roadmap-card-content'>{content}</p> */}
+                </div>
               </div>
               <div className='roadmap-card-date roadmap-date-right'>
                 <div className='date-right'>

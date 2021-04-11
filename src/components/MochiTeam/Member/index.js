@@ -1,9 +1,8 @@
 import iconLinkedin from 'assets/icons/linkedin.svg';
 import iconTwitter from 'assets/icons/twitter.svg';
-import iconInstagram from 'assets/icons/instagram.svg';
 
 export default function Member({ data }) {
-  const { image, name, role, linkedin, twitter, instagram } = data;
+  const { image, name, role, linkedin, twitter } = data;
   return (
     <div className='member-card'>
       <img src={image} alt={name + role} />
@@ -15,9 +14,6 @@ export default function Member({ data }) {
         </div>
         <div>
           <img src={iconTwitter} alt='twitter' onClick={() => window.open(twitter)} />
-        </div>
-        <div>
-          <img src={iconInstagram} alt='instagram' onClick={() => window.open(instagram)} />
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ export default function UtilityFeatures() {
                   <h1>Utility features</h1>
                 </div>
                 <div className='text-utility-features'>
-                  The Mochi tokens give access to a number of special services on the platform, such
+                  The $MOMA tokens give access to a number of special services on the platform, such
                   as:
                 </div>
                 <div className='feature-item'>
@@ -26,7 +26,7 @@ export default function UtilityFeatures() {
                     </div>
                     <div className='col-10 padding-0'>
                       <div className='text-item'>
-                        Having a discount on transaction fees if transacted in MOCHI tokens.
+                        Having a discount on transaction fees if transacted in $MOMA tokens.
                       </div>
                     </div>
                   </div>
@@ -53,7 +53,7 @@ export default function UtilityFeatures() {
                       </div>
                     </div>
                     <div className='col-10 padding-0'>
-                      <div className='text-item'>Provide liquidity to earn more MOCHI.</div>
+                      <div className='text-item'>Provide liquidity to earn more $MOMA.</div>
                     </div>
                   </div>
                 </div>
