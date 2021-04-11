@@ -7,10 +7,10 @@ export default function MochiToken() {
       <div className='container'>
         <div className='title-section'>
           <h1>The $MOMA Token</h1>
-          <div className='description-section'>
+          {/* <div className='description-section'>
             Auctor mi rutrum pellentesque suspendisse sed adipiscing netus etiam. Ornare amet sed ac
             scelerisque vel, egestas. Ultrices nam est, odio mattis.
-          </div>
+          </div> */}
         </div>
         <div className='content-mochi-team'>
           <div className='row'>
