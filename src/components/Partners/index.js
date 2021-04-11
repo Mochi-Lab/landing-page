@@ -1,6 +1,6 @@
 import './style.css';
 import Partner from './Partner';
-import cinhblock from 'assets/partners/0.1cinhblock.png';
+import cinchBlock from 'assets/partners/0.1cinchBlock.png';
 import blockStar from 'assets/partners/0.2block-star.png';
 import btxCapital from 'assets/partners/0.3btx-capital.png';
 import existential from 'assets/partners/0.4existential.png';
@@ -8,72 +8,51 @@ import magnus from 'assets/partners/0.5magnus.png';
 import raptor from 'assets/partners/0.6raptor.png';
 import x21 from 'assets/partners/0.7x21.png';
 import seedify from 'assets/partners/0.8seedify.png';
+import blocksync from 'assets/partners/0.9blocksync.png';
+import mercurius from 'assets/partners/0.10mercurius.png';
 
 export default function Partners() {
   const members = [
     {
-      image: cinhblock,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
-      linkedin: 'https://vn.linkedin.com/',
-      twitter: 'https://vn.linkedin.com/',
-      instagram: 'https://vn.linkedin.com/',
+      image: cinchBlock,
+      url: 'Courtney Henry',
     },
     {
       image: blockStar,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
-      linkedin: 'https://vn.linkedin.com/',
-      twitter: 'https://vn.linkedin.com/',
-      instagram: 'https://vn.linkedin.com/',
+      url: 'Courtney Henry',
     },
     {
       image: btxCapital,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
-      linkedin: 'https://vn.linkedin.com/',
-      twitter: 'https://vn.linkedin.com/',
-      instagram: 'https://vn.linkedin.com/',
+      url: 'Courtney Henry',
     },
     {
       image: existential,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
-      linkedin: 'https://vn.linkedin.com/',
-      twitter: 'https://vn.linkedin.com/',
-      instagram: 'https://vn.linkedin.com/',
+      url: 'Courtney Henry',
     },
     {
       image: magnus,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
-      linkedin: 'https://vn.linkedin.com/',
-      twitter: 'https://vn.linkedin.com/',
-      instagram: 'https://vn.linkedin.com/',
+      url: 'Courtney Henry',
     },
     {
       image: raptor,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
-      linkedin: 'https://vn.linkedin.com/',
-      twitter: 'https://vn.linkedin.com/',
-      instagram: 'https://vn.linkedin.com/',
+      url: 'Courtney Henry',
     },
     {
       image: x21,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
-      linkedin: 'https://vn.linkedin.com/',
-      twitter: 'https://vn.linkedin.com/',
-      instagram: 'https://vn.linkedin.com/',
+      url: 'Courtney Henry',
     },
     {
       image: seedify,
-      name: 'Courtney Henry',
-      role: 'Founder Innovion',
-      linkedin: 'https://vn.linkedin.com/',
-      twitter: 'https://vn.linkedin.com/',
-      instagram: 'https://vn.linkedin.com/',
+      url: 'Courtney Henry',
+    },
+
+    {
+      image: blocksync,
+      url: 'Courtney Henry',
+    },
+    {
+      image: mercurius,
+      url: 'Courtney Henry',
     },
   ];
 

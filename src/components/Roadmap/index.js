@@ -50,14 +50,14 @@ export default function Roadmap() {
   return (
     <div className='container roadmap-page'>
       <div>
-        <p className='smail-title'>ROADMAP</p>
-        <p className='big-title'>The Mochi Roadmap</p>
-        <div className='center'>
+        {/* <p className='smail-title'>ROADMAP</p> */}
+        <p className='big-title'>ROADMAP</p>
+        {/* <div className='center'>
           <p className='description'>
             Auctor mi rutrum pellentesque suspendisse sed adipiscing netus etiam. Ornare amet sed ac
             scelerisque vel, egestas. Ultrices nam est, odio mattis.
           </p>
-        </div>
+        </div> */}
       </div>
 
       <div className='roadmap'>

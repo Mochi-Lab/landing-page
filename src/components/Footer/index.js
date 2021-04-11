@@ -13,10 +13,10 @@ export default function Footer() {
           <img className='footer-logo' src={logo} alt='logo' />
         </div>
         <div>
-          <p className='address'>2464 Royal Ln. Mesa, New Jersey 45463</p>
+          <p className='address'>3 Fraser Street #5-25 Duo Tower, Singapore</p>
         </div>
         <div>
-          <p className='address'>info@mochilab.com</p>
+          <p className='address'>contact@mochilab.com</p>
         </div>
       </div>
       <div className='center flc'>

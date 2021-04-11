@@ -11,10 +11,10 @@ export default function MainMeal() {
       <div className='container'>
         <div className='title-section'>
           <h1>The Main meal</h1>
-          <div className='description-section'>
+          {/* <div className='description-section'>
             Interdum et mollis ut viverra bibendum. Nibh velit euismod erat amet eget bibendum
             vitae. Est morbi sit consectetur et quis nam est enim.
-          </div>
+          </div> */}
         </div>
         <div className='list-item'>
           <div className='row justify-content-center'>

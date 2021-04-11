@@ -28,7 +28,7 @@ export default function RoadmapCard({ data, index }) {
             <div className='roadmap-row'>
               <div className='wrap-roadmap-card-bg-right'>
                 <div className='roadmap-card-bg left-0'>
-                  <p className='roadmap-card-stage'>{stage}</p>
+                  {/* <p className='roadmap-card-stage'>{stage}</p> */}
                   <p className='roadmap-card-header'>{header}</p>
                   {/* <p className='roadmap-card-content'>{content}</p> */}
                 </div>
@@ -43,7 +43,7 @@ export default function RoadmapCard({ data, index }) {
             <div className='roadmap-row'>
               <div className='wrap-roadmap-card-bg'>
                 <div className='roadmap-card-bg right-0'>
-                  <p className='roadmap-card-stage'>{stage}</p>
+                  {/* <p className='roadmap-card-stage'>{stage}</p> */}
                   <p className='roadmap-card-header'>{header}</p>
                   {/* <p className='roadmap-card-content'>{content}</p> */}
                 </div>
