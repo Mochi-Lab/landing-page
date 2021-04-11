@@ -16,7 +16,7 @@ export default function Footer() {
           <p className='address'>3 Fraser Street #5-25 Duo Tower, Singapore</p>
         </div>
         <div>
-          <p className='address'>contact@mochilab.com</p>
+          <p className='address'>contact@mochilab.org</p>
         </div>
       </div>
       <div className='center flc'>
