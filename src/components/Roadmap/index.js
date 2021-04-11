@@ -32,14 +32,14 @@ export default function Roadmap() {
       date: 'Q4, 2021',
     },
     {
-      stage: 'STAGE 04',
+      stage: 'STAGE 05',
       header: 'Growing Mochi Ecosystem',
       content:
         'Cras fames semper semper nibh vestibulum. Interdum augue massa feugiat gravida a pellentesque ut fermentum vitae. Dictum cursus amet.',
       date: '2022',
     },
     {
-      stage: 'STAGE 04',
+      stage: 'STAGE 06',
       header: 'Community Driven Ecosystem',
       content:
         'Cras fames semper semper nibh vestibulum. Interdum augue massa feugiat gravida a pellentesque ut fermentum vitae. Dictum cursus amet.',
