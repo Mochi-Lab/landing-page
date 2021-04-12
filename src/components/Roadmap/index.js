@@ -26,7 +26,7 @@ export default function Roadmap() {
     },
     {
       stage: 'STAGE 04',
-      header: 'Launching NFT Launpad & Mochi Integration',
+      header: 'Launching NFT Launchpad & Mochi Integration',
       content:
         'Cras fames semper semper nibh vestibulum. Interdum augue massa feugiat gravida a pellentesque ut fermentum vitae. Dictum cursus amet.',
       date: 'Q4, 2021',
