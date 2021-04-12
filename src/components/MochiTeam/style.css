@@ -21,13 +21,15 @@
 
 .image-area {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .member-card {
   align-items: center;
   text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .member-card > .footer-card {
@@ -43,12 +45,14 @@
 .footer-card > div > img {
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 
 .member-card > img {
   width: 264px;
   height: 350px;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 .member-card > .name {

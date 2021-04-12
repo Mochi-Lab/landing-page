@@ -107,7 +107,7 @@
 
 .roadmap-card-bg {
   position: absolute;
-  width: 350px;
+  width: 100%;
   min-height: 200px;
   padding: 48px;
   background: #3e3f7879;
@@ -174,7 +174,7 @@
   align-items: flex-start;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1196px) {
   .roadmap-card-bg {
     position: absolute;
     width: 80%;

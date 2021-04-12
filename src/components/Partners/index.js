@@ -1,58 +1,68 @@
 import './style.css';
 import Partner from './Partner';
-import cinchBlock from 'assets/partners/0.1cinchBlock.png';
-import blockStar from 'assets/partners/0.2block-star.png';
-import btxCapital from 'assets/partners/0.3btx-capital.png';
-import existential from 'assets/partners/0.4existential.png';
-import magnus from 'assets/partners/0.5magnus.png';
-import raptor from 'assets/partners/0.6raptor.png';
-import x21 from 'assets/partners/0.7x21.png';
-import seedify from 'assets/partners/0.8seedify.png';
-import blocksync from 'assets/partners/0.9blocksync.png';
-import mercurius from 'assets/partners/0.10mercurius.png';
+import cinchBlock from 'assets/partners/cinchblock.png';
+import blockStar from 'assets/partners/blockstar.svg';
+import btxCapital from 'assets/partners/btx-capital.png';
+import existential from 'assets/partners/existential.png';
+import magnus from 'assets/partners/magnus_capital.png';
+import raptor from 'assets/partners/raptor.png';
+import x21 from 'assets/partners/x21.png';
+import seedify from 'assets/partners/seedify.png';
+import blocksync from 'assets/partners/blocksync.svg';
+import mercurius from 'assets/partners/mercurius.png';
 
 export default function Partners() {
   const members = [
     {
       image: cinchBlock,
-      url: 'Courtney Henry',
+      url: 'https://www.cinchblock.com/',
+      name: 'cinch block',
     },
     {
       image: blockStar,
-      url: 'Courtney Henry',
+      url: 'https://blockstar.vc/',
+      name: 'block star',
     },
     {
       image: btxCapital,
-      url: 'Courtney Henry',
+      url: 'https://btx.capital/',
+      name: 'btx capital',
     },
     {
       image: existential,
-      url: 'Courtney Henry',
+      url: 'https://exst.vc/',
+      name: 'existential capital',
     },
     {
       image: magnus,
-      url: 'Courtney Henry',
+      url: 'https://magnusdigitalassets.com/',
+      name: 'magnus capital',
     },
     {
       image: raptor,
-      url: 'Courtney Henry',
+      url: 'https://www.raptorcapital.io/',
+      name: 'raptor capital',
     },
     {
       image: x21,
-      url: 'Courtney Henry',
+      url: 'https://x21digital.com/',
+      name: 'x21 digital',
     },
     {
       image: seedify,
-      url: 'Courtney Henry',
+      url: 'https://seedify.fund/',
+      name: 'seedify fund',
     },
 
     {
       image: blocksync,
-      url: 'Courtney Henry',
+      url: 'https://www.blocksync.com/',
+      name: 'blocksync ventures',
     },
     {
       image: mercurius,
       url: 'Courtney Henry',
+      name: 'mercurius',
     },
   ];
 
@@ -63,10 +73,10 @@ export default function Partners() {
       </div>
       <div>
         <p className='title-partner'></p>
-        <div className='image-area row'>
-          {members.map((member, index) => (
-            <div className='col-12 col-md-6 col-lg-3 '>
-              <Partner key={index} data={member} />
+        <div className='image-area row justify-content-center'>
+          {members.map((partner, index) => (
+            <div className='col-6 col-md-4 col-lg-3'>
+              <Partner key={index} data={partner} />
             </div>
           ))}
         </div>

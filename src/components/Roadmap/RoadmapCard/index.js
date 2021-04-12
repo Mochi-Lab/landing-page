@@ -3,7 +3,7 @@ export default function RoadmapCard({ data, index }) {
 
   return (
     <>
-      {window.innerWidth < 768 ? (
+      {window.innerWidth < 1196 ? (
         <div className='roadmap-card'>
           <div className='roadmap-row'>
             <div className='roadmap-card-bg roadmap-card-right'>

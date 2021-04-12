@@ -74,8 +74,7 @@ export default function MainMeal() {
                 </div>
                 <div className='title-item'>Mochi Integration</div>
                 <div className='description-item'>
-                  The system is designed as plugable as possible, for upgrades as well as providing
-                  a way to directly integrate with popular NFT Marketplaces such as OpenSea or
+                  Provides a way to directly integrate with popular NFT platforms such as OpenSea or
                   Rarible.
                 </div>
               </div>

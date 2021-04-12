@@ -83,6 +83,31 @@ body {
   padding: 0;
 }
 
+.partner-card.content {
+  padding: 1rem;
+  align-items: center;
+  height: 120px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.flex {
+  display: flex;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 1.6rem;
