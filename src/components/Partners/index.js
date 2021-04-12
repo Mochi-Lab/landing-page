@@ -61,7 +61,7 @@ export default function Partners() {
     },
     {
       image: mercurius,
-      url: 'Courtney Henry',
+      url: '',
       name: 'mercurius',
     },
   ];
