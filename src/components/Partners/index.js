@@ -80,8 +80,8 @@ export default function Partners() {
         <p className='title-partner'></p>
         <div className='image-area row justify-content-center'>
           {members.map((partner, index) => (
-            <div className='col-6 col-md-4 col-lg-3'>
-              <Partner key={index} data={partner} />
+            <div className='col-6 col-md-4 col-lg-3' key={index}>
+              <Partner data={partner} />
             </div>
           ))}
         </div>
