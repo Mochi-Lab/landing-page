@@ -79,11 +79,11 @@ export default function NavbarMenu({ executeScroll }) {
                     </Menu>
                   }
                 >
-                  <span>Documents</span>
+                  <span>TGE Documents</span>
                 </Dropdown>
               ) : (
-                <Menu mode='inline' title='Documents' style={{ background: 'none' }}>
-                  <SubMenu key='documents' title='Documents'>
+                <Menu mode='inline' title='TGE Documents' style={{ background: 'none' }}>
+                  <SubMenu key='documents' title='TGE Documents'>
                     <Menu.ItemGroup>
                       <Menu.Item key='onePageM'>
                         <a
@@ -137,16 +137,7 @@ export default function NavbarMenu({ executeScroll }) {
                           rel='noopener noreferrer'
                           href='https://t.me/mochi_market'
                         >
-                          Telegram (Chat)
-                        </a>
-                      </Menu.Item>
-                      <Menu.Item key='telegramChannel'>
-                        <a
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          href='https://t.me/mochimarketnews'
-                        >
-                          Telegram (Channel)
+                          Telegram
                         </a>
                       </Menu.Item>
                       <Menu.Item key='twitter'>
@@ -191,16 +182,7 @@ export default function NavbarMenu({ executeScroll }) {
                           rel='noopener noreferrer'
                           href='https://t.me/mochi_market'
                         >
-                          Telegram (Chat)
-                        </a>
-                      </Menu.Item>
-                      <Menu.Item key='telegramMChannel'>
-                        <a
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          href='https://t.me/mochimarketnews'
-                        >
-                          Telegram (Channel)
+                          Telegram
                         </a>
                       </Menu.Item>
                       <Menu.Item key='twitterM'>
