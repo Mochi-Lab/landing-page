@@ -13,7 +13,7 @@ import andrew from 'assets/member/andrew.jpg';
 import matth from 'assets/advisors/matth.png';
 import oliver from 'assets/advisors/oliver.png';
 import hatu from 'assets/advisors/hatu.png';
-import anirban from 'assets/advisors/anirban.png';
+import anirban from 'assets/advisors/anirban.jpg';
 import lester from 'assets/advisors/lester.png';
 
 export default function MochiTeam() {

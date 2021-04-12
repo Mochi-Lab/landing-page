@@ -1,4 +1,5 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'antd/dist/antd.css';
 
 body {
   background: radial-gradient(123.22% 0% at 100.89% -5.6%, #201d47 0%, #17153a 100%);
