@@ -28,6 +28,7 @@ export default function FAQ() {
       <div ref={top}>
         <NavbarMenu executeScroll={executeScroll} />
       </div>
+      <div className='conten-faq'></div>
     </div>
   );
 }

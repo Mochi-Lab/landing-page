@@ -17,7 +17,9 @@ export default function NavbarMenu({ executeScroll }) {
     <div className='navbar-ct'>
       <div className='header container'>
         <div className='logo'>
-          <img src={logo} alt='logo-mochi' />
+          <Link to='/' style={{ cursor: 'pointer' }}>
+            <img src={logo} alt='logo-mochi' />
+          </Link>
         </div>
         <div className='btn-menu' onClick={() => setBtnMenu(!btnMenu)}>
           {btnMenu ? <CloseOutlined /> : <UnorderedListOutlined />}
