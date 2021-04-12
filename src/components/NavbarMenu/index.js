@@ -1,0 +1,244 @@
+import logo from 'assets/images/logo.png';
+import { CloseOutlined, UnorderedListOutlined } from '@ant-design/icons';
+import { Menu, Dropdown, Grid } from 'antd';
+import './style.css';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
+const { useBreakpoint } = Grid;
+const { SubMenu } = Menu;
+
+export default function NavbarMenu({ executeScroll }) {
+  const [btnMenu, setBtnMenu] = useState(false);
+
+  const { lg } = useBreakpoint();
+
+  return (
+    <div className='navbar-ct'>
+      <div className='header container'>
+        <div className='logo'>
+          <img src={logo} alt='logo-mochi' />
+        </div>
+        <div className='btn-menu' onClick={() => setBtnMenu(!btnMenu)}>
+          {btnMenu ? <CloseOutlined /> : <UnorderedListOutlined />}
+        </div>
+        <div className={`menu-right ${btnMenu ? 'active' : ''}`}>
+          <ul>
+            {/* <li onClick={() => executeScroll('Solutions')}>Solutions</li>
+            <li onClick={() => executeScroll('Features')}>Features</li>
+            <li onClick={() => executeScroll('Token')}>Token</li>
+            <li onClick={() => executeScroll('Roadmap')}>Roadmap</li>
+            <li onClick={() => executeScroll('Team')}>Team</li> */}
+
+            <li>Home</li>
+            <li>
+              {lg ? (
+                <Dropdown
+                  overlay={
+                    <Menu>
+                      <Menu.Item key='onePage'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href={`${process.env.PUBLIC_URL}/OnePage.pdf`}
+                        >
+                          One Page
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='pitchDeck'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href={`${process.env.PUBLIC_URL}/PitchDeck.pdf`}
+                        >
+                          Pitch Deck
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='lightPaper'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href={`${process.env.PUBLIC_URL}/LightPaper.pdf`}
+                        >
+                          Light Paper
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='whitePaper'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href={`${process.env.PUBLIC_URL}/WhitePaper.pdf`}
+                        >
+                          White Paper
+                        </a>
+                      </Menu.Item>
+                    </Menu>
+                  }
+                >
+                  <span>Documents</span>
+                </Dropdown>
+              ) : (
+                <Menu mode='inline' title='Documents' style={{ background: 'none' }}>
+                  <SubMenu key='documents' title='Documents'>
+                    <Menu.ItemGroup>
+                      <Menu.Item key='onePage'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href={`${process.env.PUBLIC_URL}/OnePage.pdf`}
+                        >
+                          One Page
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='pitchDeck'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href={`${process.env.PUBLIC_URL}/PitchDeck.pdf`}
+                        >
+                          Pitch Deck
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='lightPaper'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href={`${process.env.PUBLIC_URL}/LightPaper.pdf`}
+                        >
+                          Light Paper
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='whitePaper'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href={`${process.env.PUBLIC_URL}/WhitePaper.pdf`}
+                        >
+                          White Paper
+                        </a>
+                      </Menu.Item>
+                    </Menu.ItemGroup>
+                  </SubMenu>
+                </Menu>
+              )}
+            </li>
+            <li>
+              {lg ? (
+                <Dropdown
+                  overlay={
+                    <Menu>
+                      <Menu.Item key='telegram'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://t.me/mochi_market'
+                        >
+                          Telegram (Chat)
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='telegram'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://t.me/mochimarketnews'
+                        >
+                          Telegram (Channel)
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='twitter'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://twitter.com/MarketMochi'
+                        >
+                          Twitter
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='medium'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://mochi-market.medium.com/'
+                        >
+                          Medium
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='discord'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://discord.gg/ZHq7arVS'
+                        >
+                          Discord
+                        </a>
+                      </Menu.Item>
+                    </Menu>
+                  }
+                >
+                  <span>Community</span>
+                </Dropdown>
+              ) : (
+                <Menu mode='inline' title='Community' style={{ background: 'none' }}>
+                  <SubMenu key='community' title='Community'>
+                    <Menu.ItemGroup>
+                      <Menu.Item key='telegram'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://t.me/mochi_market'
+                        >
+                          Telegram (Chat)
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='telegram'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://t.me/mochimarketnews'
+                        >
+                          Telegram (Channel)
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='twitter'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://twitter.com/MarketMochi'
+                        >
+                          Twitter
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='medium'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://mochi-market.medium.com/'
+                        >
+                          Medium
+                        </a>
+                      </Menu.Item>
+                      <Menu.Item key='discord'>
+                        <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://discord.gg/ZHq7arVS'
+                        >
+                          Discord
+                        </a>
+                      </Menu.Item>
+                    </Menu.ItemGroup>
+                  </SubMenu>
+                </Menu>
+              )}
+            </li>
+            <li>
+              <Link to='/faq'>FAQs</Link>
+            </li>
+
+            <li>{/* <button className='btn-launch-app'>Launch App</button> */}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}

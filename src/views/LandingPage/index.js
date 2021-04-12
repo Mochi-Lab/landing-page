@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import Navbar from 'components/Navbar';
+import NavbarMenu from 'components/NavbarMenu';
 import Introductions from 'components/Introductions';
 import Community from 'components/Community';
 import TheProblems from 'components/TheProblems';
@@ -43,7 +43,7 @@ export default function LandingPage() {
         <canvas id='bg-landing-page' className='bg-landing-page'></canvas>
         <div className='oval-top'></div>
         <div ref={(el) => (sections.current['Top'] = el)}>
-          <Navbar executeScroll={executeScroll} sections={sections} />
+          <NavbarMenu executeScroll={executeScroll} sections={sections} />
         </div>
         <Introductions />
         <Community />
