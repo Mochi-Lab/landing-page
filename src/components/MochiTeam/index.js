@@ -74,7 +74,7 @@ export default function MochiTeam() {
       name: 'Kevin Do',
       role: 'CO-FOUNDER & CTO',
       linkedin: 'https://www.linkedin.com/in/dotrungkien',
-      twitter: 'https://twitter.com/kien_metalrock',
+      twitter: 'https://twitter.com/',
       instagram: 'https://www.instagram.com/',
     },
     {
@@ -82,7 +82,7 @@ export default function MochiTeam() {
       name: 'Charles Tran',
       role: 'CO-FOUNDER & CPO',
       linkedin: 'https://www.linkedin.com/in/chien-tran-b52339159',
-      twitter: 'https://twitter.com/chientm2002',
+      twitter: 'https://twitter.com/',
       instagram: 'https://www.instagram.com/',
     },
     {
