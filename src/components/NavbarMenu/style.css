@@ -152,6 +152,10 @@
     text-align: start;
   }
 
+  .navbar-ct .header .menu-right .ant-menu-item-group-list {
+    width: 100%;
+  }
+
   .ant-menu.ant-menu-sub.ant-menu-inline:hover + .ant-menu-submenu-title {
     color: white !important;
   }
