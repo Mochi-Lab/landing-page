@@ -10,6 +10,7 @@ import x21 from 'assets/partners/x21.png';
 import seedify from 'assets/partners/seedify.png';
 import blocksync from 'assets/partners/blocksync.svg';
 import mercurius from 'assets/partners/mercurius.png';
+import moonWhale from 'assets/partners/moon-whale.png';
 
 export default function Partners() {
   const members = [
@@ -17,6 +18,11 @@ export default function Partners() {
       image: cinchBlock,
       url: 'https://www.cinchblock.com/',
       name: 'cinch block',
+    },
+    {
+      image: moonWhale,
+      url: 'https://moonwhale.ventures/',
+      name: 'moonwhale',
     },
     {
       image: blockStar,
