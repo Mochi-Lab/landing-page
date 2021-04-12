@@ -47,7 +47,9 @@ export default function TheProblems() {
                       <img src={iconDifficultToSell} alt='difficult to sell' />
                     </div>
                     <div className='title-item'>Difficult To Sell</div>
-                    <div className='description-item'>Liquidity problems.</div>
+                    <div className='description-item'>
+                      It is difficult to sell an NFT (not enough liquidity).
+                    </div>
                   </div>
                 </div>
                 <div className='col-12  col-md-6'>

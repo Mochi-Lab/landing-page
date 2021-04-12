@@ -25,7 +25,7 @@ export default function Introductions() {
                 liquidity in the NFT market, lack of monetization strategy for NFT holders during
                 their holding period, and lack of crosschain usage between NFTs and FTs.
               </div>
-              <button className='btn-launch-app'>DONWLOAD WHITE PAPER</button>
+              <button className='btn-launch-app'>DOWNLOAD WHITE PAPER</button>
             </div>
           </div>
           <div className='col-sm-12 col-md-6'>
