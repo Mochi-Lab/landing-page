@@ -32,7 +32,9 @@ export default function NavbarMenu({ executeScroll }) {
             <li onClick={() => executeScroll('Roadmap')}>Roadmap</li>
             <li onClick={() => executeScroll('Team')}>Team</li> */}
 
-            <li>Home</li>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
             <li>
               {lg ? (
                 <Dropdown
@@ -83,7 +85,7 @@ export default function NavbarMenu({ executeScroll }) {
                 <Menu mode='inline' title='Documents' style={{ background: 'none' }}>
                   <SubMenu key='documents' title='Documents'>
                     <Menu.ItemGroup>
-                      <Menu.Item key='onePage'>
+                      <Menu.Item key='onePageM'>
                         <a
                           target='_blank'
                           rel='noopener noreferrer'
@@ -92,7 +94,7 @@ export default function NavbarMenu({ executeScroll }) {
                           One Page
                         </a>
                       </Menu.Item>
-                      <Menu.Item key='pitchDeck'>
+                      <Menu.Item key='pitchDeckM'>
                         <a
                           target='_blank'
                           rel='noopener noreferrer'
@@ -101,7 +103,7 @@ export default function NavbarMenu({ executeScroll }) {
                           Pitch Deck
                         </a>
                       </Menu.Item>
-                      <Menu.Item key='lightPaper'>
+                      <Menu.Item key='lightPaperM'>
                         <a
                           target='_blank'
                           rel='noopener noreferrer'
@@ -110,7 +112,7 @@ export default function NavbarMenu({ executeScroll }) {
                           Light Paper
                         </a>
                       </Menu.Item>
-                      <Menu.Item key='whitePaper'>
+                      <Menu.Item key='whitePaperM'>
                         <a
                           target='_blank'
                           rel='noopener noreferrer'
@@ -138,7 +140,7 @@ export default function NavbarMenu({ executeScroll }) {
                           Telegram (Chat)
                         </a>
                       </Menu.Item>
-                      <Menu.Item key='telegram'>
+                      <Menu.Item key='telegramChannel'>
                         <a
                           target='_blank'
                           rel='noopener noreferrer'
@@ -183,7 +185,7 @@ export default function NavbarMenu({ executeScroll }) {
                 <Menu mode='inline' title='Community' style={{ background: 'none' }}>
                   <SubMenu key='community' title='Community'>
                     <Menu.ItemGroup>
-                      <Menu.Item key='telegram'>
+                      <Menu.Item key='telegramM'>
                         <a
                           target='_blank'
                           rel='noopener noreferrer'
@@ -192,7 +194,7 @@ export default function NavbarMenu({ executeScroll }) {
                           Telegram (Chat)
                         </a>
                       </Menu.Item>
-                      <Menu.Item key='telegram'>
+                      <Menu.Item key='telegramMChannel'>
                         <a
                           target='_blank'
                           rel='noopener noreferrer'
@@ -201,7 +203,7 @@ export default function NavbarMenu({ executeScroll }) {
                           Telegram (Channel)
                         </a>
                       </Menu.Item>
-                      <Menu.Item key='twitter'>
+                      <Menu.Item key='twitterM'>
                         <a
                           target='_blank'
                           rel='noopener noreferrer'
@@ -210,7 +212,7 @@ export default function NavbarMenu({ executeScroll }) {
                           Twitter
                         </a>
                       </Menu.Item>
-                      <Menu.Item key='medium'>
+                      <Menu.Item key='mediumM'>
                         <a
                           target='_blank'
                           rel='noopener noreferrer'
@@ -219,7 +221,7 @@ export default function NavbarMenu({ executeScroll }) {
                           Medium
                         </a>
                       </Menu.Item>
-                      <Menu.Item key='discord'>
+                      <Menu.Item key='discordM'>
                         <a
                           target='_blank'
                           rel='noopener noreferrer'
