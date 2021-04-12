@@ -18,6 +18,12 @@
   margin-top: 3rem;
 }
 
+.item-community a {
+  text-decoration: none;
+}
+.item-community a:hover {
+  text-decoration: none;
+}
 .item-community .name {
   font-size: 1.2rem;
   font-weight: bold;

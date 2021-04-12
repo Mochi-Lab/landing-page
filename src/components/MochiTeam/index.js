@@ -7,12 +7,12 @@ import hoang from 'assets/member/hoang.png';
 import kien from 'assets/member/kien.png';
 import nghia from 'assets/member/nghia.png';
 import tan from 'assets/member/tan.png';
-import andrew from 'assets/member/andrew.png';
+import andrew from 'assets/member/andrew.jpg';
 // import daniel from 'assets/member/Daniel.png';
 
 import matth from 'assets/advisors/matth.png';
 import oliver from 'assets/advisors/oliver.png';
-import hatu from 'assets/advisors/hatu.jpg';
+import hatu from 'assets/advisors/hatu.png';
 import anirban from 'assets/advisors/anirban.png';
 import lester from 'assets/advisors/lester.png';
 
@@ -97,8 +97,8 @@ export default function MochiTeam() {
       image: nghia,
       name: 'Nolan Ngo',
       role: 'CO-FOUNDER & DEV',
-      linkedin: 'https://vn.linkedin.com/',
-      twitter: 'https://vn.linkedin.com/',
+      linkedin: 'https://www.linkedin.com/in/ngo-nolan-b5b67720b/',
+      twitter: 'https://twitter.com/nolanngo97',
       instagram: 'https://www.instagram.com/',
     },
     {
