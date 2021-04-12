@@ -10,7 +10,7 @@ export default function MainMeal() {
     <div className='main-meal'>
       <div className='container'>
         <div className='title-section'>
-          <h1>The Main meal</h1>
+          <h1>The main meal</h1>
           {/* <div className='description-section'>
             Interdum et mollis ut viverra bibendum. Nibh velit euismod erat amet eget bibendum
             vitae. Est morbi sit consectetur et quis nam est enim.
@@ -50,8 +50,8 @@ export default function MainMeal() {
                 <div className='title-item'>Mochi Rewards System</div>
                 <div className='description-item'>
                   To increase user interaction in the Mochi Market ecosystem, there will be a lot of
-                  reward systems for users such as trading reward, referral, airdrop, lottery, NFT
-                  launchpad.
+                  reward systems for users such as trading reward, referral, airdrop, lottery, and
+                  NFT launchpad.
                 </div>
               </div>
             </div>

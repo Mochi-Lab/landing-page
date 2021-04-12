@@ -19,7 +19,7 @@ export default function Roadmap() {
     },
     {
       stage: 'STAGE 03',
-      header: 'Launching Mochi Dex',
+      header: 'Launching Mochi DEX',
       content:
         'Cras fames semper semper nibh vestibulum. Interdum augue massa feugiat gravida a pellentesque ut fermentum vitae. Dictum cursus amet.',
       date: 'Q3, 2021',

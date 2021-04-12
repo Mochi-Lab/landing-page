@@ -15,31 +15,6 @@ import moonWhale from 'assets/partners/moon-whale.png';
 export default function Partners() {
   const members = [
     {
-      image: cinchBlock,
-      url: 'https://www.cinchblock.com/',
-      name: 'cinch block',
-    },
-    {
-      image: moonWhale,
-      url: 'https://moonwhale.ventures/',
-      name: 'moonwhale',
-    },
-    {
-      image: blockStar,
-      url: 'https://blockstar.vc/',
-      name: 'block star',
-    },
-    {
-      image: btxCapital,
-      url: 'https://btx.capital/',
-      name: 'btx capital',
-    },
-    {
-      image: existential,
-      url: 'https://exst.vc/',
-      name: 'existential capital',
-    },
-    {
       image: magnus,
       url: 'https://magnusdigitalassets.com/',
       name: 'magnus capital',
@@ -50,20 +25,44 @@ export default function Partners() {
       name: 'raptor capital',
     },
     {
+      image: btxCapital,
+      url: 'https://btx.capital/',
+      name: 'btx capital',
+    },
+    {
       image: x21,
       url: 'https://x21digital.com/',
       name: 'x21 digital',
+    },
+    {
+      image: moonWhale,
+      url: 'https://moonwhale.ventures/',
+      name: 'moonwhale',
+    },
+    {
+      image: cinchBlock,
+      url: 'https://www.cinchblock.com/',
+      name: 'cinch block',
     },
     {
       image: seedify,
       url: 'https://seedify.fund/',
       name: 'seedify fund',
     },
-
+    {
+      image: existential,
+      url: 'https://exst.vc/',
+      name: 'existential capital',
+    },
     {
       image: blocksync,
       url: 'https://www.blocksync.com/',
       name: 'blocksync ventures',
+    },
+    {
+      image: blockStar,
+      url: 'https://blockstar.vc/',
+      name: 'block star',
     },
     {
       image: mercurius,
