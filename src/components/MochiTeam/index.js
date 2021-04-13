@@ -74,7 +74,7 @@ export default function MochiTeam() {
       name: 'Kevin Do',
       role: 'CO-FOUNDER & CTO',
       linkedin: 'https://www.linkedin.com/in/dotrungkien',
-      twitter: 'https://twitter.com/',
+      twitter: 'https://twitter.com/kevindo90',
       instagram: 'https://www.instagram.com/',
     },
     {
