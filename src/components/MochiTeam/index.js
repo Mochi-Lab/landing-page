@@ -121,7 +121,7 @@ export default function MochiTeam() {
       image: andrew,
       name: 'Andrew Fennell',
       role: 'COMMUNITY MANAGER \n & BDM',
-      linkedin: 'https://twitter.com/Andrewfunbags',
+      linkedin: 'https://www.linkedin.com/in/andrewfennellbdm/',
       twitter: 'https://twitter.com/Andrewfunbags',
       instagram: 'https://www.instagram.com/',
     },
