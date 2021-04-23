@@ -45,11 +45,6 @@ export default function Partners() {
       name: 'cinch block',
     },
     {
-      image: seedify,
-      url: 'https://seedify.fund/',
-      name: 'seedify fund',
-    },
-    {
       image: existential,
       url: 'https://exst.vc/',
       name: 'existential capital',
